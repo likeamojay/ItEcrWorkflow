@@ -38,7 +38,3 @@ runs and inserts ECR number into Engineering Change Request Approvals (Responses
 4.Every 5 minutes this script runs again automatically to check if Director or manager has filled
 out a new Approval form that hasn't been responded to yet. If it has then sends an email to requestor
 with the ECR approval results.
-
-End Worflow Algorithm
-
-
