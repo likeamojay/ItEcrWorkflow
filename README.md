@@ -18,16 +18,19 @@ Differences from Tutorial Application:
 
 1.Progam is autonomous and does not have to be run
 manually by IT.
+
 2. Expense Report ID or ECR number in this case, does not have
 to be typed in manually by director in approval form. A supplementary
 script Automatically inserts it every time an approval form is submitted.
+
 3. Checks for new ECR submissions automatically
 
 
 Use Case Actors involved:
 
-1. Director or manager receiving the emails about ECR and then promoted to fill out approval form
-2. Requestor who fills out ECR form and receives email with approval results
+1. Director or manager receiving the emails about ECR and then promoted to fill out approval form.
+2. 
+2. Requestor who fills out ECR form and receives email with approval results.
 
 
 =
