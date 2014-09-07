@@ -29,7 +29,7 @@ script Automatically inserts it every time an approval form is submitted.
 Use Case Actors involved:
 
 1. Director or manager receiving the emails about ECR and then promoted to fill out approval form.
-2. 
+
 2. Requestor who fills out ECR form and receives email with approval results.
 
 
