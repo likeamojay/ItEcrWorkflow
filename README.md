@@ -6,9 +6,13 @@ IT Infrastructure Engineering Change Request Workflow (ECR)
 This is a Google Apps Script Workflow Application originally a mod of 
 Google's Expense Report Tutorial to suit the ECR needs of a small-to-mid-size IT Department.
 
-
 The original tutorial can be found at
 http://developers.google.com/apps-script/articles/expense_report_approval
+
+For those not familiar with Google Apps Scripting, it is essentially Javascript with built in APIs to interface with  Google Forms, Gmail, and Google Sheets. The file extension is .gs rather than .js.
+
+If you're looking to implement this workflow in your own Google Drive, you'll first need to set up two forms and two spreadsheets as outlined in the above tutorial link.
+
 
 Differences from Tutorial Application:
 
@@ -26,14 +30,4 @@ Use Case Actors involved:
 2. Requestor who fills out ECR form and receives email with approval results
 
 
-Workflow Algorithm:
-
-1. Requestor fills out Engineering Change Request Form (ECR).
-2. This script runs automatically and sends an email to STATE_MANAGER_EMAIL with 
-information about ECR and then prompts them to 
-click the hyperlink to fill out the approval form.
-3. After approval form is submitted. Secondary script "Insert ECR Number" automatically 
-runs and inserts ECR number into Engineering Change Request Approvals (Responses) spreadhseet.
-4.Every 5 minutes this script runs again automatically to check if Director or manager has filled
-out a new Approval form that hasn't been responded to yet. If it has then sends an email to requestor
-with the ECR approval results.
+=
