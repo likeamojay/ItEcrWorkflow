@@ -39,11 +39,11 @@ with the ECR approval results.
 /***************************IMPORTANT GLOBAL CONSTANTS: Modify with discretion. Changing these incorrectly can stop completely stop sheets and triggers from interacting properly****************/
 
 
-var APPROVALS_SPREADSHEET_ID = "1meL1_0I-3rrHfmrjsKJppyGYOY_F_mYyUhjqnXMagGg"; // Google Sheets spreadhseet ID of approval form
+var APPROVALS_SPREADSHEET_ID = "SPREADSHEET_ID_HERE"; // Google Sheets spreadhseet ID of approval form
 
-var APPROVAL_FORM_URL = "https://docs.google.com/a/sjsu.edu/forms/d/1k9-ldiV_j-t-_oWI-SsgDDT-1EKGVnxds67nCre-Sc8/viewform"; // URL of approval form
+var APPROVAL_FORM_URL = "APPROVALS_FORM_URL_HERE"; // URL of approval form
 
-var STATE_MANAGER_EMAIL = "michael.yin@sjsu.edu"; // This is the email address to the person to receive the Request.
+var STATE_MANAGER_EMAIL = "YOUR_MANAGER_EMAIL_HERE"; // This is the email address to the person to receive the Request.
 
 var STATE_APPROVED = "Approved";
 
