@@ -34,10 +34,8 @@ function InsertEcrNumber() {
   var currentRow = approvalsSheet.getRange(lastRow,COLUMN_ECR_NUMBER);
   
   // Add 1 to that value
-  var newNumber = oldRow +1;
-  
   // Insert value into empty cell
-  currentRow.setValue(newNumber);
+  currentRow.setValue(oldRow+1);
   
   // Done. Yay!
 ;
